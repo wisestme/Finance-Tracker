@@ -24,8 +24,15 @@ return JSON.parse(dat);
 
 }
 
+const modal = document.querySelector('#modal-container')
+
 let logOutButton = document.querySelector('.is-logout');
 console.log(logOutButton);
+
+function displayModal() {
+	modal.style.display = 'block';
+}
+
 function logOut(){
 
 let doLogOUt = sendRequest(theLogOutUrl,{});

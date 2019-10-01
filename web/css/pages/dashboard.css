@@ -355,6 +355,26 @@ display: none;
 	margin-top: 10px;
 }
 
+.modal {
+    display: none; 
+    position: fixed;
+    z-index:0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(28,47,86,0.5);
+}
+
+.modal-content {
+    background-color: #111C2D;
+    margin:20% auto;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2)
+
+}
 
 /*Colour shades that complement
 #1C2F56
