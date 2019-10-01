@@ -27,12 +27,15 @@ return JSON.parse(dat);
 const modal = document.querySelector('#modal-container');
 
 let logOutButton = document.querySelector('.is-logout');
-
+let yes = document.querySelector('.logout-yes');
+let no = document.querySelector('.logout-no');
 
 
 function displayModal() {
 	modal.style.display = 'block';
 }
+
+
 
 function logOut(){
 
