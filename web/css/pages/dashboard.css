@@ -364,16 +364,32 @@ display: none;
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(28,47,86,0.5);
+    background-color: rgba(17,28,45,0.5);
 }
 
 .modal-content {
     background-color: #111C2D;
     margin:20% auto;
     padding: 20px;
-    width: 50%;
+    width: 60%;
+    max-width: 500px;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2)
 
+}
+
+[class^="logout-"] {
+	position: relative;
+	background-color: #668AD2;
+	margin: 1em auto;
+	left: 2em;
+	width: 50px;
+	padding: 0.5em;
+
+}
+
+.logout {
+	width: 50%;
+	margin: 0 auto;
 }
 
 /*Colour shades that complement
