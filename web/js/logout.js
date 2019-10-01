@@ -24,7 +24,8 @@ return JSON.parse(dat);
 
 }
 
-
+let logOutButton = document.querySelector('.is-logout');
+console.log(logOutButton);
 function logOut(){
 
 let doLogOUt = sendRequest(theLogOutUrl,{});
