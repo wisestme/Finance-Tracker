@@ -356,7 +356,7 @@ display: none;
 }
 
 .modal {
-    display: none; 
+    display: block; 
     position: fixed;
     z-index: 1;
     left: 0;
@@ -368,23 +368,31 @@ display: none;
 }
 
 .modal-content {
+	text-align: center;
     background-color: #111C2D;
     margin:20% auto;
     padding: 20px;
-    width: 60%;
+    width: 70%;
     max-width: 500px;
-    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2)
-
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2);
+	border-radius: 10px;
 }
 
 [class^="logout-"] {
 	position: relative;
 	background-color: #668AD2;
-	margin: 1em auto;
-	left: 2em;
+	margin: 1em 0.5em;
 	width: 50px;
-	padding: 0.5em;
+	padding: 0.3em;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: bolder;
+	font-size: large;
+}
 
+[class^="logout-"]:hover {
+	background-color: #1C2F56;
+	transition: background-color 1s;
 }
 
 .logout {
