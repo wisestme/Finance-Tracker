@@ -39,6 +39,9 @@ function hideModal() {
 	modal.style.display = 'none';
 }
 
+no.addEventListener('click', hideModal);
+
+yes.addEventListener('click', logOut);
 
 
 
